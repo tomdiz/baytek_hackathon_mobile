@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4A788B7102E8844E9FA11B /* libPods-ArcadeTricorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56506E146D69352B6F9FDA1D /* libPods-ArcadeTricorder.a */; };
+		A5E457FB1AA26BAB00CA3DE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E457FA1AA26BAB00CA3DE9 /* main.m */; };
+		A5E457FE1AA26BAB00CA3DE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E457FD1AA26BAB00CA3DE9 /* AppDelegate.m */; };
+		A5E458011AA26BAB00CA3DE9 /* ArcadeTricorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5E457FF1AA26BAB00CA3DE9 /* ArcadeTricorder.xcdatamodeld */; };
+		A5E458071AA26BAB00CA3DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E458051AA26BAB00CA3DE9 /* Main.storyboard */; };
+		A5E458091AA26BAB00CA3DE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E458081AA26BAB00CA3DE9 /* Images.xcassets */; };
+		A5E4580C1AA26BAB00CA3DE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E4580A1AA26BAB00CA3DE9 /* LaunchScreen.xib */; };
+		A5E458181AA26BAB00CA3DE9 /* ArcadeTricorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458171AA26BAB00CA3DE9 /* ArcadeTricorderTests.m */; };
+		A5E458241AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458231AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.m */; };
+		A5E458251AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458231AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.m */; };
+		A5E458281AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458271AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.m */; };
+		A5E458291AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458271AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.m */; };
+		A5E458301AA26C6300CA3DE9 /* VGLInventoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4582D1AA26C6300CA3DE9 /* VGLInventoryTableViewCell.m */; };
+		A5E458311AA26C6300CA3DE9 /* VGLInventoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4582D1AA26C6300CA3DE9 /* VGLInventoryTableViewCell.m */; };
+		A5E458321AA26C6300CA3DE9 /* VGLInventoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4582F1AA26C6300CA3DE9 /* VGLInventoryTableViewController.m */; };
+		A5E458331AA26C6300CA3DE9 /* VGLInventoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4582F1AA26C6300CA3DE9 /* VGLInventoryTableViewController.m */; };
+		A5E458361AA26C6A00CA3DE9 /* VGLCabinetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458351AA26C6A00CA3DE9 /* VGLCabinetTableViewController.m */; };
+		A5E458371AA26C6A00CA3DE9 /* VGLCabinetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458351AA26C6A00CA3DE9 /* VGLCabinetTableViewController.m */; };
+		A5E458391AA26CC200CA3DE9 /* spockTri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458381AA26CC200CA3DE9 /* spockTri.jpg */; };
+		A5E4583A1AA26CC200CA3DE9 /* spockTri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458381AA26CC200CA3DE9 /* spockTri.jpg */; };
+		A5E4583D1AA26F8600CA3DE9 /* VGLAddLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4583C1AA26F8600CA3DE9 /* VGLAddLocationViewController.m */; };
+		A5E4583E1AA26F8600CA3DE9 /* VGLAddLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4583C1AA26F8600CA3DE9 /* VGLAddLocationViewController.m */; };
+		A5E458401AA27CE300CA3DE9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E4583F1AA27CE300CA3DE9 /* MapKit.framework */; };
+		A5E458441AA27F3000CA3DE9 /* VGLData.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458431AA27F2F00CA3DE9 /* VGLData.m */; };
+		A5E458451AA27F3000CA3DE9 /* VGLData.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458431AA27F2F00CA3DE9 /* VGLData.m */; };
+		A5E458491AA284EA00CA3DE9 /* VGLLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458481AA284EA00CA3DE9 /* VGLLocationModel.m */; };
+		A5E4584A1AA284EA00CA3DE9 /* VGLLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458481AA284EA00CA3DE9 /* VGLLocationModel.m */; };
+		A5E4584D1AA29F5500CA3DE9 /* VGLCabinetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4584C1AA29F5500CA3DE9 /* VGLCabinetModel.m */; };
+		A5E4584E1AA29F5500CA3DE9 /* VGLCabinetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4584C1AA29F5500CA3DE9 /* VGLCabinetModel.m */; };
+		A5E458511AA29FAB00CA3DE9 /* VGLAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458501AA29FAB00CA3DE9 /* VGLAccountModel.m */; };
+		A5E458521AA29FAB00CA3DE9 /* VGLAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458501AA29FAB00CA3DE9 /* VGLAccountModel.m */; };
+		A5E458551AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458541AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.m */; };
+		A5E458561AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458541AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.m */; };
+		A5E458591AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458581AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.m */; };
+		A5E4585A1AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458581AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.m */; };
+		A5E4585D1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4585C1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.m */; };
+		A5E4585E1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4585C1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.m */; };
+		A5E458791AA2D0FE00CA3DE9 /* GameDetailWeb_ArcticChomp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458611AA2D0FE00CA3DE9 /* GameDetailWeb_ArcticChomp.jpg */; };
+		A5E4587A1AA2D0FE00CA3DE9 /* GameDetailWeb_ArcticChomp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458611AA2D0FE00CA3DE9 /* GameDetailWeb_ArcticChomp.jpg */; };
+		A5E4587B1AA2D0FE00CA3DE9 /* GameDetailWeb_BBWJ_BBWP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458621AA2D0FE00CA3DE9 /* GameDetailWeb_BBWJ_BBWP.jpg */; };
+		A5E4587C1AA2D0FE00CA3DE9 /* GameDetailWeb_BBWJ_BBWP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458621AA2D0FE00CA3DE9 /* GameDetailWeb_BBWJ_BBWP.jpg */; };
+		A5E4587D1AA2D0FE00CA3DE9 /* GameDetailWeb_BeachBounce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458631AA2D0FE00CA3DE9 /* GameDetailWeb_BeachBounce.jpg */; };
+		A5E4587E1AA2D0FE00CA3DE9 /* GameDetailWeb_BeachBounce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458631AA2D0FE00CA3DE9 /* GameDetailWeb_BeachBounce.jpg */; };
+		A5E4587F1AA2D0FE00CA3DE9 /* GameDetailWeb_BikeRally.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458641AA2D0FE00CA3DE9 /* GameDetailWeb_BikeRally.jpg */; };
+		A5E458801AA2D0FE00CA3DE9 /* GameDetailWeb_BikeRally.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458641AA2D0FE00CA3DE9 /* GameDetailWeb_BikeRally.jpg */; };
+		A5E458811AA2D0FE00CA3DE9 /* GameDetailWeb_C4S.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5E458651AA2D0FE00CA3DE9 /* GameDetailWeb_C4S.JPG */; };
+		A5E458821AA2D0FE00CA3DE9 /* GameDetailWeb_C4S.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5E458651AA2D0FE00CA3DE9 /* GameDetailWeb_C4S.JPG */; };
+		A5E458831AA2D0FE00CA3DE9 /* GameDetailWeb_Cannonball_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458661AA2D0FE00CA3DE9 /* GameDetailWeb_Cannonball_right.jpg */; };
+		A5E458841AA2D0FE00CA3DE9 /* GameDetailWeb_Cannonball_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458661AA2D0FE00CA3DE9 /* GameDetailWeb_Cannonball_right.jpg */; };
+		A5E458851AA2D0FE00CA3DE9 /* GameDetailWeb_CIREV_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458671AA2D0FE00CA3DE9 /* GameDetailWeb_CIREV_right.jpg */; };
+		A5E458861AA2D0FE00CA3DE9 /* GameDetailWeb_CIREV_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458671AA2D0FE00CA3DE9 /* GameDetailWeb_CIREV_right.jpg */; };
+		A5E458871AA2D0FE00CA3DE9 /* GameDetailWeb_Connect4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458681AA2D0FE00CA3DE9 /* GameDetailWeb_Connect4.jpg */; };
+		A5E458881AA2D0FE00CA3DE9 /* GameDetailWeb_Connect4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458681AA2D0FE00CA3DE9 /* GameDetailWeb_Connect4.jpg */; };
+		A5E458891AA2D0FE00CA3DE9 /* GameDetailWeb_CP_1_2P.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458691AA2D0FE00CA3DE9 /* GameDetailWeb_CP_1_2P.jpg */; };
+		A5E4588A1AA2D0FE00CA3DE9 /* GameDetailWeb_CP_1_2P.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458691AA2D0FE00CA3DE9 /* GameDetailWeb_CP_1_2P.jpg */; };
+		A5E4588B1AA2D0FE00CA3DE9 /* GameDetailWeb_CrankIt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586A1AA2D0FE00CA3DE9 /* GameDetailWeb_CrankIt.jpg */; };
+		A5E4588C1AA2D0FE00CA3DE9 /* GameDetailWeb_CrankIt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586A1AA2D0FE00CA3DE9 /* GameDetailWeb_CrankIt.jpg */; };
+		A5E4588D1AA2D0FE00CA3DE9 /* GameDetailWeb_DizzyChicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586B1AA2D0FE00CA3DE9 /* GameDetailWeb_DizzyChicken.jpg */; };
+		A5E4588E1AA2D0FE00CA3DE9 /* GameDetailWeb_DizzyChicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586B1AA2D0FE00CA3DE9 /* GameDetailWeb_DizzyChicken.jpg */; };
+		A5E4588F1AA2D0FE00CA3DE9 /* GameDetailWeb_FB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586C1AA2D0FE00CA3DE9 /* GameDetailWeb_FB.jpg */; };
+		A5E458901AA2D0FE00CA3DE9 /* GameDetailWeb_FB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586C1AA2D0FE00CA3DE9 /* GameDetailWeb_FB.jpg */; };
+		A5E458911AA2D0FE00CA3DE9 /* GameDetailWeb_FullTilt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586D1AA2D0FE00CA3DE9 /* GameDetailWeb_FullTilt.jpg */; };
+		A5E458921AA2D0FE00CA3DE9 /* GameDetailWeb_FullTilt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586D1AA2D0FE00CA3DE9 /* GameDetailWeb_FullTilt.jpg */; };
+		A5E458931AA2D0FE00CA3DE9 /* GameDetailWeb_HopStar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586E1AA2D0FE00CA3DE9 /* GameDetailWeb_HopStar.jpg */; };
+		A5E458941AA2D0FE00CA3DE9 /* GameDetailWeb_HopStar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586E1AA2D0FE00CA3DE9 /* GameDetailWeb_HopStar.jpg */; };
+		A5E458951AA2D0FE00CA3DE9 /* GameDetailWeb_HorsePlay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586F1AA2D0FE00CA3DE9 /* GameDetailWeb_HorsePlay.jpg */; };
+		A5E458961AA2D0FE00CA3DE9 /* GameDetailWeb_HorsePlay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E4586F1AA2D0FE00CA3DE9 /* GameDetailWeb_HorsePlay.jpg */; };
+		A5E458971AA2D0FE00CA3DE9 /* GameDetailWeb_PHM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458701AA2D0FE00CA3DE9 /* GameDetailWeb_PHM.jpg */; };
+		A5E458981AA2D0FE00CA3DE9 /* GameDetailWeb_PHM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458701AA2D0FE00CA3DE9 /* GameDetailWeb_PHM.jpg */; };
+		A5E458991AA2D0FE00CA3DE9 /* GameDetailWeb_PigOut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458711AA2D0FE00CA3DE9 /* GameDetailWeb_PigOut.jpg */; };
+		A5E4589A1AA2D0FE00CA3DE9 /* GameDetailWeb_PigOut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458711AA2D0FE00CA3DE9 /* GameDetailWeb_PigOut.jpg */; };
+		A5E4589B1AA2D0FE00CA3DE9 /* GameDetailWeb_RoadTrip(1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458721AA2D0FE00CA3DE9 /* GameDetailWeb_RoadTrip(1).jpg */; };
+		A5E4589C1AA2D0FE00CA3DE9 /* GameDetailWeb_RoadTrip(1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458721AA2D0FE00CA3DE9 /* GameDetailWeb_RoadTrip(1).jpg */; };
+		A5E4589D1AA2D0FE00CA3DE9 /* GameDetailWeb_SinkIt_Combo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458731AA2D0FE00CA3DE9 /* GameDetailWeb_SinkIt_Combo.jpg */; };
+		A5E4589E1AA2D0FE00CA3DE9 /* GameDetailWeb_SinkIt_Combo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458731AA2D0FE00CA3DE9 /* GameDetailWeb_SinkIt_Combo.jpg */; };
+		A5E4589F1AA2D0FE00CA3DE9 /* GameDetailWeb_SWISH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458741AA2D0FE00CA3DE9 /* GameDetailWeb_SWISH.jpg */; };
+		A5E458A01AA2D0FE00CA3DE9 /* GameDetailWeb_SWISH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458741AA2D0FE00CA3DE9 /* GameDetailWeb_SWISH.jpg */; };
+		A5E458A11AA2D0FE00CA3DE9 /* GameDetailWeb_TicketMonster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458751AA2D0FE00CA3DE9 /* GameDetailWeb_TicketMonster.jpg */; };
+		A5E458A21AA2D0FE00CA3DE9 /* GameDetailWeb_TicketMonster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5E458751AA2D0FE00CA3DE9 /* GameDetailWeb_TicketMonster.jpg */; };
+		A5E458D21AA2FD7300CA3DE9 /* VGLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458D11AA2FD7300CA3DE9 /* VGLLocation.m */; };
+		A5E458D31AA2FD7300CA3DE9 /* VGLLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458D11AA2FD7300CA3DE9 /* VGLLocation.m */; };
+		A5E458D81AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458D51AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.m */; };
+		A5E458D91AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458D51AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.m */; };
+		A5E458DA1AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458D71AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.m */; };
+		A5E458DB1AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E458D71AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.m */; };
+		D15AB8481AA4DE1400F977FF /* VGLDQDiagnosticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15AB8451AA4DE1400F977FF /* VGLDQDiagnosticsViewController.m */; };
+		D15AB84F1AA4DE4200F977FF /* DQBayTekRequestProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D15AB84C1AA4DE4200F977FF /* DQBayTekRequestProtocol.m */; };
+		D15AB8501AA4DE4200F977FF /* DQObjectServerData.m in Sources */ = {isa = PBXBuildFile; fileRef = D15AB84E1AA4DE4200F977FF /* DQObjectServerData.m */; };
+		D15AB8561AA4DE7400F977FF /* libBayTekProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15AB8551AA4DE7400F977FF /* libBayTekProtocol.a */; };
+		D15AB85E1AA4DE9B00F977FF /* libDQuidSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15AB85D1AA4DE9B00F977FF /* libDQuidSdk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5E458121AA26BAB00CA3DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5E457ED1AA26BAB00CA3DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E457F41AA26BAB00CA3DE9;
+			remoteInfo = ArcadeTricorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188F4EBA56FD52F810F39839 /* Pods-ArcadeTricorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcadeTricorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcadeTricorder/Pods-ArcadeTricorder.release.xcconfig"; sourceTree = "<group>"; };
+		56506E146D69352B6F9FDA1D /* libPods-ArcadeTricorder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArcadeTricorder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E457F51AA26BAB00CA3DE9 /* ArcadeTricorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcadeTricorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E457F91AA26BAB00CA3DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E457FA1AA26BAB00CA3DE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5E457FC1AA26BAB00CA3DE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5E457FD1AA26BAB00CA3DE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5E458001AA26BAB00CA3DE9 /* ArcadeTricorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArcadeTricorder.xcdatamodel; sourceTree = "<group>"; };
+		A5E458061AA26BAB00CA3DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5E458081AA26BAB00CA3DE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5E4580B1AA26BAB00CA3DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5E458111AA26BAB00CA3DE9 /* ArcadeTricorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcadeTricorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E458161AA26BAB00CA3DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E458171AA26BAB00CA3DE9 /* ArcadeTricorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcadeTricorderTests.m; sourceTree = "<group>"; };
+		A5E458221AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLStoreLocationTableViewController.h; sourceTree = "<group>"; };
+		A5E458231AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLStoreLocationTableViewController.m; sourceTree = "<group>"; };
+		A5E458261AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLStoreLocationTableViewCell.h; sourceTree = "<group>"; };
+		A5E458271AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLStoreLocationTableViewCell.m; sourceTree = "<group>"; };
+		A5E4582C1AA26C6300CA3DE9 /* VGLInventoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLInventoryTableViewCell.h; sourceTree = "<group>"; };
+		A5E4582D1AA26C6300CA3DE9 /* VGLInventoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLInventoryTableViewCell.m; sourceTree = "<group>"; };
+		A5E4582E1AA26C6300CA3DE9 /* VGLInventoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLInventoryTableViewController.h; sourceTree = "<group>"; };
+		A5E4582F1AA26C6300CA3DE9 /* VGLInventoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLInventoryTableViewController.m; sourceTree = "<group>"; };
+		A5E458341AA26C6A00CA3DE9 /* VGLCabinetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLCabinetTableViewController.h; sourceTree = "<group>"; };
+		A5E458351AA26C6A00CA3DE9 /* VGLCabinetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLCabinetTableViewController.m; sourceTree = "<group>"; };
+		A5E458381AA26CC200CA3DE9 /* spockTri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spockTri.jpg; sourceTree = "<group>"; };
+		A5E4583B1AA26F8600CA3DE9 /* VGLAddLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLAddLocationViewController.h; sourceTree = "<group>"; };
+		A5E4583C1AA26F8600CA3DE9 /* VGLAddLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLAddLocationViewController.m; sourceTree = "<group>"; };
+		A5E4583F1AA27CE300CA3DE9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A5E458421AA27F2F00CA3DE9 /* VGLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLData.h; sourceTree = "<group>"; };
+		A5E458431AA27F2F00CA3DE9 /* VGLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLData.m; sourceTree = "<group>"; };
+		A5E458471AA284EA00CA3DE9 /* VGLLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLLocationModel.h; sourceTree = "<group>"; };
+		A5E458481AA284EA00CA3DE9 /* VGLLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLLocationModel.m; sourceTree = "<group>"; };
+		A5E4584B1AA29F5500CA3DE9 /* VGLCabinetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLCabinetModel.h; sourceTree = "<group>"; };
+		A5E4584C1AA29F5500CA3DE9 /* VGLCabinetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLCabinetModel.m; sourceTree = "<group>"; };
+		A5E4584F1AA29FAB00CA3DE9 /* VGLAccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLAccountModel.h; sourceTree = "<group>"; };
+		A5E458501AA29FAB00CA3DE9 /* VGLAccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLAccountModel.m; sourceTree = "<group>"; };
+		A5E458531AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLCabinetProfileTableViewCell.h; sourceTree = "<group>"; };
+		A5E458541AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLCabinetProfileTableViewCell.m; sourceTree = "<group>"; };
+		A5E458571AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLCabinetDiagnosticsTableViewCell.h; sourceTree = "<group>"; };
+		A5E458581AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLCabinetDiagnosticsTableViewCell.m; sourceTree = "<group>"; };
+		A5E4585B1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLCabinetServiceTableViewCell.h; sourceTree = "<group>"; };
+		A5E4585C1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLCabinetServiceTableViewCell.m; sourceTree = "<group>"; };
+		A5E458611AA2D0FE00CA3DE9 /* GameDetailWeb_ArcticChomp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_ArcticChomp.jpg; sourceTree = "<group>"; };
+		A5E458621AA2D0FE00CA3DE9 /* GameDetailWeb_BBWJ_BBWP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_BBWJ_BBWP.jpg; sourceTree = "<group>"; };
+		A5E458631AA2D0FE00CA3DE9 /* GameDetailWeb_BeachBounce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_BeachBounce.jpg; sourceTree = "<group>"; };
+		A5E458641AA2D0FE00CA3DE9 /* GameDetailWeb_BikeRally.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_BikeRally.jpg; sourceTree = "<group>"; };
+		A5E458651AA2D0FE00CA3DE9 /* GameDetailWeb_C4S.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_C4S.JPG; sourceTree = "<group>"; };
+		A5E458661AA2D0FE00CA3DE9 /* GameDetailWeb_Cannonball_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_Cannonball_right.jpg; sourceTree = "<group>"; };
+		A5E458671AA2D0FE00CA3DE9 /* GameDetailWeb_CIREV_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_CIREV_right.jpg; sourceTree = "<group>"; };
+		A5E458681AA2D0FE00CA3DE9 /* GameDetailWeb_Connect4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_Connect4.jpg; sourceTree = "<group>"; };
+		A5E458691AA2D0FE00CA3DE9 /* GameDetailWeb_CP_1_2P.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_CP_1_2P.jpg; sourceTree = "<group>"; };
+		A5E4586A1AA2D0FE00CA3DE9 /* GameDetailWeb_CrankIt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_CrankIt.jpg; sourceTree = "<group>"; };
+		A5E4586B1AA2D0FE00CA3DE9 /* GameDetailWeb_DizzyChicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_DizzyChicken.jpg; sourceTree = "<group>"; };
+		A5E4586C1AA2D0FE00CA3DE9 /* GameDetailWeb_FB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_FB.jpg; sourceTree = "<group>"; };
+		A5E4586D1AA2D0FE00CA3DE9 /* GameDetailWeb_FullTilt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_FullTilt.jpg; sourceTree = "<group>"; };
+		A5E4586E1AA2D0FE00CA3DE9 /* GameDetailWeb_HopStar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_HopStar.jpg; sourceTree = "<group>"; };
+		A5E4586F1AA2D0FE00CA3DE9 /* GameDetailWeb_HorsePlay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_HorsePlay.jpg; sourceTree = "<group>"; };
+		A5E458701AA2D0FE00CA3DE9 /* GameDetailWeb_PHM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_PHM.jpg; sourceTree = "<group>"; };
+		A5E458711AA2D0FE00CA3DE9 /* GameDetailWeb_PigOut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_PigOut.jpg; sourceTree = "<group>"; };
+		A5E458721AA2D0FE00CA3DE9 /* GameDetailWeb_RoadTrip(1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GameDetailWeb_RoadTrip(1).jpg"; sourceTree = "<group>"; };
+		A5E458731AA2D0FE00CA3DE9 /* GameDetailWeb_SinkIt_Combo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_SinkIt_Combo.jpg; sourceTree = "<group>"; };
+		A5E458741AA2D0FE00CA3DE9 /* GameDetailWeb_SWISH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_SWISH.jpg; sourceTree = "<group>"; };
+		A5E458751AA2D0FE00CA3DE9 /* GameDetailWeb_TicketMonster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameDetailWeb_TicketMonster.jpg; sourceTree = "<group>"; };
+		A5E458761AA2D0FE00CA3DE9 /* ~$arcades.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "~$arcades.xlsx"; sourceTree = "<absolute>"; };
+		A5E458D01AA2FD7300CA3DE9 /* VGLLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLLocation.h; sourceTree = "<group>"; };
+		A5E458D11AA2FD7300CA3DE9 /* VGLLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLLocation.m; sourceTree = "<group>"; };
+		A5E458D41AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLVendingMachineServiceRecord.h; sourceTree = "<group>"; };
+		A5E458D51AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLVendingMachineServiceRecord.m; sourceTree = "<group>"; };
+		A5E458D61AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLVendingMachineServiceRecordModel.h; sourceTree = "<group>"; };
+		A5E458D71AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLVendingMachineServiceRecordModel.m; sourceTree = "<group>"; };
+		D15AB83F1AA3A6E300F977FF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHud/MBProgressHUD.h; sourceTree = "<group>"; };
+		D15AB8451AA4DE1400F977FF /* VGLDQDiagnosticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGLDQDiagnosticsViewController.m; sourceTree = "<group>"; };
+		D15AB8491AA4DE4200F977FF /* VGLDQDiagnosticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGLDQDiagnosticsViewController.h; sourceTree = "<group>"; };
+		D15AB84B1AA4DE4200F977FF /* DQBayTekRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBayTekRequestProtocol.h; sourceTree = "<group>"; };
+		D15AB84C1AA4DE4200F977FF /* DQBayTekRequestProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQBayTekRequestProtocol.m; sourceTree = "<group>"; };
+		D15AB84D1AA4DE4200F977FF /* DQObjectServerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQObjectServerData.h; sourceTree = "<group>"; };
+		D15AB84E1AA4DE4200F977FF /* DQObjectServerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQObjectServerData.m; sourceTree = "<group>"; };
+		D15AB8521AA4DE7400F977FF /* BayTekProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BayTekProtocol.h; sourceTree = "<group>"; };
+		D15AB8531AA4DE7400F977FF /* BayTekRequestInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BayTekRequestInterface.h; sourceTree = "<group>"; };
+		D15AB8541AA4DE7400F977FF /* DQBayTekResponseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBayTekResponseDelegate.h; sourceTree = "<group>"; };
+		D15AB8551AA4DE7400F977FF /* libBayTekProtocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBayTekProtocol.a; sourceTree = "<group>"; };
+		D15AB8581AA4DE9B00F977FF /* DQData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQData.h; sourceTree = "<group>"; };
+		D15AB8591AA4DE9B00F977FF /* DQIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQIncludes.h; sourceTree = "<group>"; };
+		D15AB85A1AA4DE9B00F977FF /* DQManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQManager.h; sourceTree = "<group>"; };
+		D15AB85B1AA4DE9B00F977FF /* DQObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQObject.h; sourceTree = "<group>"; };
+		D15AB85C1AA4DE9B00F977FF /* DQProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQProperty.h; sourceTree = "<group>"; };
+		D15AB85D1AA4DE9B00F977FF /* libDQuidSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDQuidSdk.a; sourceTree = "<group>"; };
+		DB1A67CF5218F1E92D78A048 /* Pods-ArcadeTricorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcadeTricorder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcadeTricorder/Pods-ArcadeTricorder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5E457F21AA26BAB00CA3DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15AB85E1AA4DE9B00F977FF /* libDQuidSdk.a in Frameworks */,
+				A5E458401AA27CE300CA3DE9 /* MapKit.framework in Frameworks */,
+				D15AB8561AA4DE7400F977FF /* libBayTekProtocol.a in Frameworks */,
+				0A4A788B7102E8844E9FA11B /* libPods-ArcadeTricorder.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E4580E1AA26BAB00CA3DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD2B36106F3B7116FC9EAF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56506E146D69352B6F9FDA1D /* libPods-ArcadeTricorder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A30D4560AC78C92C07121A56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A67CF5218F1E92D78A048 /* Pods-ArcadeTricorder.debug.xcconfig */,
+				188F4EBA56FD52F810F39839 /* Pods-ArcadeTricorder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5E457EC1AA26BAB00CA3DE9 = {
+			isa = PBXGroup;
+			children = (
+				A5E4583F1AA27CE300CA3DE9 /* MapKit.framework */,
+				A5E457F71AA26BAB00CA3DE9 /* ArcadeTricorder */,
+				A5E458141AA26BAB00CA3DE9 /* ArcadeTricorderTests */,
+				A5E457F61AA26BAB00CA3DE9 /* Products */,
+				A30D4560AC78C92C07121A56 /* Pods */,
+				0DD2B36106F3B7116FC9EAF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5E457F61AA26BAB00CA3DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5E457F51AA26BAB00CA3DE9 /* ArcadeTricorder.app */,
+				A5E458111AA26BAB00CA3DE9 /* ArcadeTricorderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5E457F71AA26BAB00CA3DE9 /* ArcadeTricorder */ = {
+			isa = PBXGroup;
+			children = (
+				D15AB8571AA4DE9B00F977FF /* DQuidSDK */,
+				D15AB8511AA4DE7400F977FF /* BayTekProtocol */,
+				D15AB84A1AA4DE4200F977FF /* DQComm */,
+				D15AB8451AA4DE1400F977FF /* VGLDQDiagnosticsViewController.m */,
+				D15AB8491AA4DE4200F977FF /* VGLDQDiagnosticsViewController.h */,
+				D15AB83F1AA3A6E300F977FF /* MBProgressHUD.h */,
+				A5E458461AA284B100CA3DE9 /* Models */,
+				A5E458411AA27F2100CA3DE9 /* Services */,
+				A5E4582B1AA26C5400CA3DE9 /* Cabinets */,
+				A5E4582A1AA26C4200CA3DE9 /* Locations */,
+				A5E458211AA26C0A00CA3DE9 /* Stores */,
+				A5E457FC1AA26BAB00CA3DE9 /* AppDelegate.h */,
+				A5E457FD1AA26BAB00CA3DE9 /* AppDelegate.m */,
+				A5E458051AA26BAB00CA3DE9 /* Main.storyboard */,
+				A5E458081AA26BAB00CA3DE9 /* Images.xcassets */,
+				A5E4580A1AA26BAB00CA3DE9 /* LaunchScreen.xib */,
+				A5E457FF1AA26BAB00CA3DE9 /* ArcadeTricorder.xcdatamodeld */,
+				A5E4585F1AA2D0FE00CA3DE9 /* data */,
+				A5E457F81AA26BAB00CA3DE9 /* Supporting Files */,
+			);
+			path = ArcadeTricorder;
+			sourceTree = "<group>";
+		};
+		A5E457F81AA26BAB00CA3DE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5E458381AA26CC200CA3DE9 /* spockTri.jpg */,
+				A5E457F91AA26BAB00CA3DE9 /* Info.plist */,
+				A5E457FA1AA26BAB00CA3DE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5E458141AA26BAB00CA3DE9 /* ArcadeTricorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5E458171AA26BAB00CA3DE9 /* ArcadeTricorderTests.m */,
+				A5E458151AA26BAB00CA3DE9 /* Supporting Files */,
+			);
+			path = ArcadeTricorderTests;
+			sourceTree = "<group>";
+		};
+		A5E458151AA26BAB00CA3DE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5E458161AA26BAB00CA3DE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5E458211AA26C0A00CA3DE9 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				A5E4583B1AA26F8600CA3DE9 /* VGLAddLocationViewController.h */,
+				A5E4583C1AA26F8600CA3DE9 /* VGLAddLocationViewController.m */,
+				A5E458221AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.h */,
+				A5E458231AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.m */,
+				A5E458261AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.h */,
+				A5E458271AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.m */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		A5E4582A1AA26C4200CA3DE9 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				A5E4582C1AA26C6300CA3DE9 /* VGLInventoryTableViewCell.h */,
+				A5E4582D1AA26C6300CA3DE9 /* VGLInventoryTableViewCell.m */,
+				A5E4582E1AA26C6300CA3DE9 /* VGLInventoryTableViewController.h */,
+				A5E4582F1AA26C6300CA3DE9 /* VGLInventoryTableViewController.m */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
+		A5E4582B1AA26C5400CA3DE9 /* Cabinets */ = {
+			isa = PBXGroup;
+			children = (
+				A5E458341AA26C6A00CA3DE9 /* VGLCabinetTableViewController.h */,
+				A5E458351AA26C6A00CA3DE9 /* VGLCabinetTableViewController.m */,
+				A5E458531AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.h */,
+				A5E458541AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.m */,
+				A5E458571AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.h */,
+				A5E458581AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.m */,
+				A5E4585B1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.h */,
+				A5E4585C1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.m */,
+			);
+			name = Cabinets;
+			sourceTree = "<group>";
+		};
+		A5E458411AA27F2100CA3DE9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5E458421AA27F2F00CA3DE9 /* VGLData.h */,
+				A5E458431AA27F2F00CA3DE9 /* VGLData.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		A5E458461AA284B100CA3DE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5E458D01AA2FD7300CA3DE9 /* VGLLocation.h */,
+				A5E458D11AA2FD7300CA3DE9 /* VGLLocation.m */,
+				A5E458471AA284EA00CA3DE9 /* VGLLocationModel.h */,
+				A5E458481AA284EA00CA3DE9 /* VGLLocationModel.m */,
+				A5E4584B1AA29F5500CA3DE9 /* VGLCabinetModel.h */,
+				A5E4584C1AA29F5500CA3DE9 /* VGLCabinetModel.m */,
+				A5E4584F1AA29FAB00CA3DE9 /* VGLAccountModel.h */,
+				A5E458501AA29FAB00CA3DE9 /* VGLAccountModel.m */,
+				A5E458D41AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.h */,
+				A5E458D51AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.m */,
+				A5E458D61AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.h */,
+				A5E458D71AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A5E4585F1AA2D0FE00CA3DE9 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				A5E458611AA2D0FE00CA3DE9 /* GameDetailWeb_ArcticChomp.jpg */,
+				A5E458621AA2D0FE00CA3DE9 /* GameDetailWeb_BBWJ_BBWP.jpg */,
+				A5E458631AA2D0FE00CA3DE9 /* GameDetailWeb_BeachBounce.jpg */,
+				A5E458641AA2D0FE00CA3DE9 /* GameDetailWeb_BikeRally.jpg */,
+				A5E458651AA2D0FE00CA3DE9 /* GameDetailWeb_C4S.JPG */,
+				A5E458661AA2D0FE00CA3DE9 /* GameDetailWeb_Cannonball_right.jpg */,
+				A5E458671AA2D0FE00CA3DE9 /* GameDetailWeb_CIREV_right.jpg */,
+				A5E458681AA2D0FE00CA3DE9 /* GameDetailWeb_Connect4.jpg */,
+				A5E458691AA2D0FE00CA3DE9 /* GameDetailWeb_CP_1_2P.jpg */,
+				A5E4586A1AA2D0FE00CA3DE9 /* GameDetailWeb_CrankIt.jpg */,
+				A5E4586B1AA2D0FE00CA3DE9 /* GameDetailWeb_DizzyChicken.jpg */,
+				A5E4586C1AA2D0FE00CA3DE9 /* GameDetailWeb_FB.jpg */,
+				A5E4586D1AA2D0FE00CA3DE9 /* GameDetailWeb_FullTilt.jpg */,
+				A5E4586E1AA2D0FE00CA3DE9 /* GameDetailWeb_HopStar.jpg */,
+				A5E4586F1AA2D0FE00CA3DE9 /* GameDetailWeb_HorsePlay.jpg */,
+				A5E458701AA2D0FE00CA3DE9 /* GameDetailWeb_PHM.jpg */,
+				A5E458711AA2D0FE00CA3DE9 /* GameDetailWeb_PigOut.jpg */,
+				A5E458721AA2D0FE00CA3DE9 /* GameDetailWeb_RoadTrip(1).jpg */,
+				A5E458731AA2D0FE00CA3DE9 /* GameDetailWeb_SinkIt_Combo.jpg */,
+				A5E458741AA2D0FE00CA3DE9 /* GameDetailWeb_SWISH.jpg */,
+				A5E458751AA2D0FE00CA3DE9 /* GameDetailWeb_TicketMonster.jpg */,
+				A5E458761AA2D0FE00CA3DE9 /* ~$arcades.xlsx */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		D15AB84A1AA4DE4200F977FF /* DQComm */ = {
+			isa = PBXGroup;
+			children = (
+				D15AB84B1AA4DE4200F977FF /* DQBayTekRequestProtocol.h */,
+				D15AB84C1AA4DE4200F977FF /* DQBayTekRequestProtocol.m */,
+				D15AB84D1AA4DE4200F977FF /* DQObjectServerData.h */,
+				D15AB84E1AA4DE4200F977FF /* DQObjectServerData.m */,
+			);
+			path = DQComm;
+			sourceTree = "<group>";
+		};
+		D15AB8511AA4DE7400F977FF /* BayTekProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				D15AB8521AA4DE7400F977FF /* BayTekProtocol.h */,
+				D15AB8531AA4DE7400F977FF /* BayTekRequestInterface.h */,
+				D15AB8541AA4DE7400F977FF /* DQBayTekResponseDelegate.h */,
+				D15AB8551AA4DE7400F977FF /* libBayTekProtocol.a */,
+			);
+			name = BayTekProtocol;
+			path = "BaytekSkeletonApp-XCode/BayTekProtocol";
+			sourceTree = SOURCE_ROOT;
+		};
+		D15AB8571AA4DE9B00F977FF /* DQuidSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D15AB8581AA4DE9B00F977FF /* DQData.h */,
+				D15AB8591AA4DE9B00F977FF /* DQIncludes.h */,
+				D15AB85A1AA4DE9B00F977FF /* DQManager.h */,
+				D15AB85B1AA4DE9B00F977FF /* DQObject.h */,
+				D15AB85C1AA4DE9B00F977FF /* DQProperty.h */,
+				D15AB85D1AA4DE9B00F977FF /* libDQuidSdk.a */,
+			);
+			name = DQuidSDK;
+			path = "BaytekSkeletonApp-XCode/DQuidSDK";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5E457F41AA26BAB00CA3DE9 /* ArcadeTricorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E4581B1AA26BAB00CA3DE9 /* Build configuration list for PBXNativeTarget "ArcadeTricorder" */;
+			buildPhases = (
+				59D5DB1BCC2AA28922F4FFAD /* Check Pods Manifest.lock */,
+				A5E457F11AA26BAB00CA3DE9 /* Sources */,
+				A5E457F21AA26BAB00CA3DE9 /* Frameworks */,
+				A5E457F31AA26BAB00CA3DE9 /* Resources */,
+				0DBA0C0E80D7DE7C2DC747B6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcadeTricorder;
+			productName = ArcadeTricorder;
+			productReference = A5E457F51AA26BAB00CA3DE9 /* ArcadeTricorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5E458101AA26BAB00CA3DE9 /* ArcadeTricorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E4581E1AA26BAB00CA3DE9 /* Build configuration list for PBXNativeTarget "ArcadeTricorderTests" */;
+			buildPhases = (
+				A5E4580D1AA26BAB00CA3DE9 /* Sources */,
+				A5E4580E1AA26BAB00CA3DE9 /* Frameworks */,
+				A5E4580F1AA26BAB00CA3DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5E458131AA26BAB00CA3DE9 /* PBXTargetDependency */,
+			);
+			name = ArcadeTricorderTests;
+			productName = ArcadeTricorderTests;
+			productReference = A5E458111AA26BAB00CA3DE9 /* ArcadeTricorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5E457ED1AA26BAB00CA3DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jim DiZoglio";
+				TargetAttributes = {
+					A5E457F41AA26BAB00CA3DE9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = BW79CD8633;
+					};
+					A5E458101AA26BAB00CA3DE9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A5E457F41AA26BAB00CA3DE9;
+					};
+				};
+			};
+			buildConfigurationList = A5E457F01AA26BAB00CA3DE9 /* Build configuration list for PBXProject "ArcadeTricorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5E457EC1AA26BAB00CA3DE9;
+			productRefGroup = A5E457F61AA26BAB00CA3DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5E457F41AA26BAB00CA3DE9 /* ArcadeTricorder */,
+				A5E458101AA26BAB00CA3DE9 /* ArcadeTricorderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5E457F31AA26BAB00CA3DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E458A11AA2D0FE00CA3DE9 /* GameDetailWeb_TicketMonster.jpg in Resources */,
+				A5E458071AA26BAB00CA3DE9 /* Main.storyboard in Resources */,
+				A5E4587B1AA2D0FE00CA3DE9 /* GameDetailWeb_BBWJ_BBWP.jpg in Resources */,
+				A5E4580C1AA26BAB00CA3DE9 /* LaunchScreen.xib in Resources */,
+				A5E458871AA2D0FE00CA3DE9 /* GameDetailWeb_Connect4.jpg in Resources */,
+				A5E458391AA26CC200CA3DE9 /* spockTri.jpg in Resources */,
+				A5E458931AA2D0FE00CA3DE9 /* GameDetailWeb_HopStar.jpg in Resources */,
+				A5E4588D1AA2D0FE00CA3DE9 /* GameDetailWeb_DizzyChicken.jpg in Resources */,
+				A5E458891AA2D0FE00CA3DE9 /* GameDetailWeb_CP_1_2P.jpg in Resources */,
+				A5E458991AA2D0FE00CA3DE9 /* GameDetailWeb_PigOut.jpg in Resources */,
+				A5E4588F1AA2D0FE00CA3DE9 /* GameDetailWeb_FB.jpg in Resources */,
+				A5E458911AA2D0FE00CA3DE9 /* GameDetailWeb_FullTilt.jpg in Resources */,
+				A5E458951AA2D0FE00CA3DE9 /* GameDetailWeb_HorsePlay.jpg in Resources */,
+				A5E4587D1AA2D0FE00CA3DE9 /* GameDetailWeb_BeachBounce.jpg in Resources */,
+				A5E458831AA2D0FE00CA3DE9 /* GameDetailWeb_Cannonball_right.jpg in Resources */,
+				A5E4589F1AA2D0FE00CA3DE9 /* GameDetailWeb_SWISH.jpg in Resources */,
+				A5E458091AA26BAB00CA3DE9 /* Images.xcassets in Resources */,
+				A5E4589D1AA2D0FE00CA3DE9 /* GameDetailWeb_SinkIt_Combo.jpg in Resources */,
+				A5E4589B1AA2D0FE00CA3DE9 /* GameDetailWeb_RoadTrip(1).jpg in Resources */,
+				A5E4588B1AA2D0FE00CA3DE9 /* GameDetailWeb_CrankIt.jpg in Resources */,
+				A5E458851AA2D0FE00CA3DE9 /* GameDetailWeb_CIREV_right.jpg in Resources */,
+				A5E458791AA2D0FE00CA3DE9 /* GameDetailWeb_ArcticChomp.jpg in Resources */,
+				A5E458811AA2D0FE00CA3DE9 /* GameDetailWeb_C4S.JPG in Resources */,
+				A5E458971AA2D0FE00CA3DE9 /* GameDetailWeb_PHM.jpg in Resources */,
+				A5E4587F1AA2D0FE00CA3DE9 /* GameDetailWeb_BikeRally.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E4580F1AA26BAB00CA3DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E458841AA2D0FE00CA3DE9 /* GameDetailWeb_Cannonball_right.jpg in Resources */,
+				A5E458901AA2D0FE00CA3DE9 /* GameDetailWeb_FB.jpg in Resources */,
+				A5E458881AA2D0FE00CA3DE9 /* GameDetailWeb_Connect4.jpg in Resources */,
+				A5E458941AA2D0FE00CA3DE9 /* GameDetailWeb_HopStar.jpg in Resources */,
+				A5E458921AA2D0FE00CA3DE9 /* GameDetailWeb_FullTilt.jpg in Resources */,
+				A5E4587E1AA2D0FE00CA3DE9 /* GameDetailWeb_BeachBounce.jpg in Resources */,
+				A5E4588E1AA2D0FE00CA3DE9 /* GameDetailWeb_DizzyChicken.jpg in Resources */,
+				A5E458981AA2D0FE00CA3DE9 /* GameDetailWeb_PHM.jpg in Resources */,
+				A5E458861AA2D0FE00CA3DE9 /* GameDetailWeb_CIREV_right.jpg in Resources */,
+				A5E4589C1AA2D0FE00CA3DE9 /* GameDetailWeb_RoadTrip(1).jpg in Resources */,
+				A5E458A01AA2D0FE00CA3DE9 /* GameDetailWeb_SWISH.jpg in Resources */,
+				A5E4588A1AA2D0FE00CA3DE9 /* GameDetailWeb_CP_1_2P.jpg in Resources */,
+				A5E458A21AA2D0FE00CA3DE9 /* GameDetailWeb_TicketMonster.jpg in Resources */,
+				A5E458821AA2D0FE00CA3DE9 /* GameDetailWeb_C4S.JPG in Resources */,
+				A5E4589E1AA2D0FE00CA3DE9 /* GameDetailWeb_SinkIt_Combo.jpg in Resources */,
+				A5E4589A1AA2D0FE00CA3DE9 /* GameDetailWeb_PigOut.jpg in Resources */,
+				A5E4583A1AA26CC200CA3DE9 /* spockTri.jpg in Resources */,
+				A5E4587A1AA2D0FE00CA3DE9 /* GameDetailWeb_ArcticChomp.jpg in Resources */,
+				A5E4587C1AA2D0FE00CA3DE9 /* GameDetailWeb_BBWJ_BBWP.jpg in Resources */,
+				A5E4588C1AA2D0FE00CA3DE9 /* GameDetailWeb_CrankIt.jpg in Resources */,
+				A5E458961AA2D0FE00CA3DE9 /* GameDetailWeb_HorsePlay.jpg in Resources */,
+				A5E458801AA2D0FE00CA3DE9 /* GameDetailWeb_BikeRally.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DBA0C0E80D7DE7C2DC747B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcadeTricorder/Pods-ArcadeTricorder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59D5DB1BCC2AA28922F4FFAD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5E457F11AA26BAB00CA3DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15AB8481AA4DE1400F977FF /* VGLDQDiagnosticsViewController.m in Sources */,
+				A5E458551AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.m in Sources */,
+				A5E458361AA26C6A00CA3DE9 /* VGLCabinetTableViewController.m in Sources */,
+				A5E458321AA26C6300CA3DE9 /* VGLInventoryTableViewController.m in Sources */,
+				A5E458D21AA2FD7300CA3DE9 /* VGLLocation.m in Sources */,
+				A5E458011AA26BAB00CA3DE9 /* ArcadeTricorder.xcdatamodeld in Sources */,
+				A5E458441AA27F3000CA3DE9 /* VGLData.m in Sources */,
+				A5E458511AA29FAB00CA3DE9 /* VGLAccountModel.m in Sources */,
+				A5E458591AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.m in Sources */,
+				A5E4583D1AA26F8600CA3DE9 /* VGLAddLocationViewController.m in Sources */,
+				A5E457FE1AA26BAB00CA3DE9 /* AppDelegate.m in Sources */,
+				A5E458301AA26C6300CA3DE9 /* VGLInventoryTableViewCell.m in Sources */,
+				A5E458241AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.m in Sources */,
+				A5E4584D1AA29F5500CA3DE9 /* VGLCabinetModel.m in Sources */,
+				A5E4585D1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.m in Sources */,
+				D15AB84F1AA4DE4200F977FF /* DQBayTekRequestProtocol.m in Sources */,
+				A5E458DA1AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.m in Sources */,
+				A5E458281AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.m in Sources */,
+				D15AB8501AA4DE4200F977FF /* DQObjectServerData.m in Sources */,
+				A5E457FB1AA26BAB00CA3DE9 /* main.m in Sources */,
+				A5E458D81AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.m in Sources */,
+				A5E458491AA284EA00CA3DE9 /* VGLLocationModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E4580D1AA26BAB00CA3DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E458311AA26C6300CA3DE9 /* VGLInventoryTableViewCell.m in Sources */,
+				A5E458251AA26C1E00CA3DE9 /* VGLStoreLocationTableViewController.m in Sources */,
+				A5E458521AA29FAB00CA3DE9 /* VGLAccountModel.m in Sources */,
+				A5E458371AA26C6A00CA3DE9 /* VGLCabinetTableViewController.m in Sources */,
+				A5E458291AA26C3700CA3DE9 /* VGLStoreLocationTableViewCell.m in Sources */,
+				A5E4583E1AA26F8600CA3DE9 /* VGLAddLocationViewController.m in Sources */,
+				A5E4585E1AA2AA1700CA3DE9 /* VGLCabinetServiceTableViewCell.m in Sources */,
+				A5E4584A1AA284EA00CA3DE9 /* VGLLocationModel.m in Sources */,
+				A5E458D31AA2FD7300CA3DE9 /* VGLLocation.m in Sources */,
+				A5E4585A1AA2A9FF00CA3DE9 /* VGLCabinetDiagnosticsTableViewCell.m in Sources */,
+				A5E4584E1AA29F5500CA3DE9 /* VGLCabinetModel.m in Sources */,
+				A5E458DB1AA30EF600CA3DE9 /* VGLVendingMachineServiceRecordModel.m in Sources */,
+				A5E458331AA26C6300CA3DE9 /* VGLInventoryTableViewController.m in Sources */,
+				A5E458181AA26BAB00CA3DE9 /* ArcadeTricorderTests.m in Sources */,
+				A5E458561AA2A81100CA3DE9 /* VGLCabinetProfileTableViewCell.m in Sources */,
+				A5E458D91AA30EF600CA3DE9 /* VGLVendingMachineServiceRecord.m in Sources */,
+				A5E458451AA27F3000CA3DE9 /* VGLData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5E458131AA26BAB00CA3DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5E457F41AA26BAB00CA3DE9 /* ArcadeTricorder */;
+			targetProxy = A5E458121AA26BAB00CA3DE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5E458051AA26BAB00CA3DE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5E458061AA26BAB00CA3DE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5E4580A1AA26BAB00CA3DE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5E4580B1AA26BAB00CA3DE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5E458191AA26BAB00CA3DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5E4581A1AA26BAB00CA3DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5E4581C1AA26BAB00CA3DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1A67CF5218F1E92D78A048 /* Pods-ArcadeTricorder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ArcadeTricorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaytekSkeletonApp-XCode/BayTekProtocol",
+					"$(PROJECT_DIR)/BaytekSkeletonApp-XCode/DQuidSDK",
+					"$(PROJECT_DIR)/ArcadeTricorder/MBProgressHud",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A5E4581D1AA26BAB00CA3DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188F4EBA56FD52F810F39839 /* Pods-ArcadeTricorder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ArcadeTricorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaytekSkeletonApp-XCode/BayTekProtocol",
+					"$(PROJECT_DIR)/BaytekSkeletonApp-XCode/DQuidSDK",
+					"$(PROJECT_DIR)/ArcadeTricorder/MBProgressHud",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A5E4581F1AA26BAB00CA3DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcadeTricorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaytekSkeletonApp-XCode/BayTekProtocol",
+					"$(PROJECT_DIR)/BaytekSkeletonApp-XCode/DQuidSDK",
+					"$(PROJECT_DIR)/ArcadeTricorder/MBProgressHud",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcadeTricorder.app/ArcadeTricorder";
+			};
+			name = Debug;
+		};
+		A5E458201AA26BAB00CA3DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcadeTricorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaytekSkeletonApp-XCode/BayTekProtocol",
+					"$(PROJECT_DIR)/BaytekSkeletonApp-XCode/DQuidSDK",
+					"$(PROJECT_DIR)/ArcadeTricorder/MBProgressHud",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcadeTricorder.app/ArcadeTricorder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5E457F01AA26BAB00CA3DE9 /* Build configuration list for PBXProject "ArcadeTricorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E458191AA26BAB00CA3DE9 /* Debug */,
+				A5E4581A1AA26BAB00CA3DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E4581B1AA26BAB00CA3DE9 /* Build configuration list for PBXNativeTarget "ArcadeTricorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E4581C1AA26BAB00CA3DE9 /* Debug */,
+				A5E4581D1AA26BAB00CA3DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E4581E1AA26BAB00CA3DE9 /* Build configuration list for PBXNativeTarget "ArcadeTricorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E4581F1AA26BAB00CA3DE9 /* Debug */,
+				A5E458201AA26BAB00CA3DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5E457FF1AA26BAB00CA3DE9 /* ArcadeTricorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5E458001AA26BAB00CA3DE9 /* ArcadeTricorder.xcdatamodel */,
+			);
+			currentVersion = A5E458001AA26BAB00CA3DE9 /* ArcadeTricorder.xcdatamodel */;
+			path = ArcadeTricorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5E457ED1AA26BAB00CA3DE9 /* Project object */;
+}
